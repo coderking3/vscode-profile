@@ -1,0 +1,12 @@
+{
+  "deconstructing props": {
+    "prefix": "cp",
+    "body": ["const {$0} = props"],
+    "description": "deconstructing props"
+  },
+  "deconstructing state": {
+    "prefix": "cs",
+    "body": ["const {$0} = state"],
+    "description": "deconstructing state"
+  }
+}
