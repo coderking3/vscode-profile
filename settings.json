@@ -6,7 +6,7 @@
   //! ========== Visuals [ 视觉效果 ] ==========
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
-  "editor.fontFamily": "Fira Code,Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true, // 启用连字符
   "editor.fontSize": 16.5,
   "editor.fontWeight": "500",
@@ -458,3 +458,4 @@
   "create-uniapp-view.directory": true,
   "create-uniapp-view.name": "与文件夹同名"
 }
+
