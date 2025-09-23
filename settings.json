@@ -224,9 +224,6 @@
   },
 
   // ========== Language Support ==========
-  "css.validate": false,
-  "less.validate": false,
-  "scss.validate": false,
   "html.format.indentInnerHtml": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -345,12 +342,16 @@
   ],
 
   // ========== Extensions: CSS/Style Development ==========
-  // Stylelint - CSS代码检查 (按需: 有CSS/SCSS/Vue项目时使用)
+  // // Stylelint - CSS代码检查 (按需: 有CSS/SCSS/Vue项目时使用)
   // "stylelint.enable": true,
   // "stylelint.packageManager": "pnpm",
   // "stylelint.validate": ["css", "less", "postcss", "scss", "vue"],
   // "stylelint.customSyntax": "postcss-html",
   // "stylelint.snippet": ["css", "less", "postcss", "scss", "vue"],
+  // // 启用stylelint时建议禁用内置validate防止冲突
+  // "css.validate": false,
+  // "less.validate": false,
+  // "scss.validate": false,
 
   // ========== Extensions: JavaScript/TypeScript Development ==========
   // Console Log - 快速插入console.log (按需: JS/TS开发时使用)
