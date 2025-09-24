@@ -20,6 +20,7 @@ const EXTENSION_COMBINATIONS = {
         'core',
         'frontend.html',
         'frontend.css.base',
+        'frontend.css.utils',
         'frontend.javascript',
         'frontend.format',
         'frontend.devServer',
@@ -29,7 +30,7 @@ const EXTENSION_COMBINATIONS = {
     },
   },
 
-  // Vue 开发环境（排除预处理器）
+  // Vue 开发环境
   vue: {
     description: 'Vue 开发环境，但不包含 CSS 预处理器',
     getExtensions: () =>
@@ -41,16 +42,13 @@ const EXTENSION_COMBINATIONS = {
         'frontend.javascript',
         'frontend.frameworks.vue',
         'frontend.format',
-        'frontend.devServer',
-      ])
-        .excludeConfig(['frontend.css.preprocessors'])
-        .excludeByCategory(['analytics']), // 排除统计工具
+      ]).addByName(['Vitest']).sortByCategory(),
     get extensions() {
       return this.getExtensions().get()
     },
   },
 
-  // React 开发环境（包含测试工具）
+  // React 开发环境
   react: {
     description: 'React 开发环境，包含测试工具',
     getExtensions: () =>
@@ -62,11 +60,7 @@ const EXTENSION_COMBINATIONS = {
         'frontend.javascript',
         'frontend.frameworks.react',
         'frontend.format',
-        'frontend.devServer',
-        'frontend.testing',
-      ])
-        .excludeByName(['WakaTime'])
-        .sortByCategory(),
+      ]).addByName(['Vitest']).sortByCategory(),
     get extensions() {
       return this.getExtensions().get()
     },
@@ -78,13 +72,29 @@ const EXTENSION_COMBINATIONS = {
     getExtensions: () =>
       ExtensionUtils.combine([
         'core',
-        'frontend.html',
-        'frontend.css.base',
         'frontend.javascript',
         'frontend.format',
         'nodejs',
         'database',
-      ]).excludeByCategory(['analytics']),
+      ]),
+    get extensions() {
+      return this.getExtensions().get()
+    },
+  },
+
+  // 混合开发环境
+  mixdev: {
+    description: 'React 开发环境，包含测试工具',
+    getExtensions: () =>
+      ExtensionUtils.combine([
+        'core',
+        'frontend.html',
+        'frontend.css.base',
+        'frontend.javascript',
+        'frontend.frameworks.vue',
+        'frontend.frameworks.react',
+        'frontend.format',
+      ]).addByName(['Vitest']).sortByCategory(),
     get extensions() {
       return this.getExtensions().get()
     },

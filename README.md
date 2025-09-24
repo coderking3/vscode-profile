@@ -97,14 +97,20 @@ const myCustomConfig = ExtensionUtils.combine(['core', 'frontend.html'])
 
 ```
 vscode-profile/
-├── settings.json           # 编辑器设置
 ├── extensions/            # 扩展管理系统
-│   ├── extension-manager.js
-│   └── combinations.js
+│   ├── combinations.js
+│   ├── index.js
+│   ├── profile.js
+│   ├── utils.js
+│   └── validator.js
 ├── snippets/              # 代码片段
-│   ├── javascript.json
+│   ├── css.json
+│   ├── html.json
+│   ├── javascriptreact.json
+│   ├── typescriptreact.json
 │   ├── vue.json
 │   └── ...
+├── settings.json       # 编辑器设置
 ├── keybindings.json       # 快捷键设置
 └── README.md             # 说明文档
 ```

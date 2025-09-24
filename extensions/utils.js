@@ -107,6 +107,26 @@ class ExtensionResult {
   }
 
   /**
+   * 根据扩展名称添加扩展
+   * @param {Array} addNames - 配置键名数组
+   * @returns {ExtensionResult} 新的 ExtensionResult 实例
+   */
+  addByName(addNames) {
+    if (!Array.isArray(addNames)) {
+      console.warn('add: 参数必须是数组')
+      return new ExtensionResult([...this.extensions])
+    }
+
+    const newExtensions = EXTENSIONS_CODE.filter(
+      (ext) => addNames.includes(ext.name)
+    )
+
+    // 合并并去重
+    const combined = [...this.extensions, ...newExtensions]
+    return new ExtensionResult(this._deduplicateExtensions(combined))
+  }
+
+  /**
    * 自定义过滤
    * @param {Function} predicate - 过滤函数
    * @returns {ExtensionResult} 新的 ExtensionResult 实例

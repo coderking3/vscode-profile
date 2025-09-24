@@ -1,0 +1,10 @@
+{
+  "name": "vscode-profile",
+  "version": "1.0.0",
+  "description": "this is my vscode-profile",
+  "license": "MIT",
+  "author": "king-3 <w2196592083@gmail.com>",
+  "scripts": {
+    "extension": "node ./extensions/index.js"
+  }
+}

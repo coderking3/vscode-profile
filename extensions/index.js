@@ -1,6 +1,7 @@
-const { EXTENSIONS_CODE } = require("./profile")
-const { ExtensionUtils } = require("./utils")
-const { ExtensionValidator } = require("./validator")
+const { EXTENSIONS_CODE } = require('./profile')
+const { ExtensionValidator } = require('./validator')
+const { ExtensionUtils } = require('./utils')
+const { EXTENSION_COMBINATIONS } = require('./combinations')
 
 // ========== 使用示例和测试 ==========
 console.log('🔧 VSCode 扩展管理系统已加载\n')
@@ -74,3 +75,8 @@ console.log(`
   EXTENSION_COMBINATIONS.fullstack.getExtensions()  - 全栈开发
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 `)
+
+console.log('\n 🚀 mixdev 混合开发环境:')
+const mixdevConfig = EXTENSION_COMBINATIONS.mixdev.getExtensions()
+const mixdevIds = mixdevConfig.debug().sortByName().toIds()
+console.log()
