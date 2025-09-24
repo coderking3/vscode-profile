@@ -119,7 +119,7 @@ vscode-profile/
 
 ## 📄 许可证
 
-[选择适合的许可证]
+[MIT](./LICENSE)
 
 ---
 

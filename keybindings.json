@@ -1,0 +1,23 @@
+// 将键绑定放在此文件中以覆盖默认值
+[
+  {
+    "key": "shift+alt+q",
+    "command": "turboConsoleLog.insertConsoleLog",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+l",
+    "command": "-turboConsoleLog.insertConsoleLog",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  }
+]
