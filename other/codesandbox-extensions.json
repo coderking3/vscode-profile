@@ -31,7 +31,6 @@
     "stxr.iconfont-preview",
     "kisstkondoros.vscode-gutter-preview",
     "visualstudioexptteam.vscodeintellicode",
-
     "xabikos.javascriptsnippets",
     "ms-vscode.vscode-typescript-next",
     "ms-vscode.js-debug-nightly",
@@ -45,7 +44,6 @@
     "burkeholland.simple-react-snippets",
     "stylelint.vscode-stylelint",
     "simonsiefke.svg-preview",
-    "tabnine.tabnine-vscode",
     "meganrogge.template-string-converter",
     "chakrounanas.turbo-console-log",
     "infeng.vscode-react-typescript",
@@ -55,7 +53,6 @@
     "vue.volar",
     "hollowtree.vue-snippets",
     "sdras.vue-vscode-snippets",
-    "wakatime.vscode-wakatime",
     "redhat.vscode-yaml"
   ]
 }
