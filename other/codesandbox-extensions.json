@@ -1,5 +1,5 @@
 {
-  "codesandbox.preinstalledExtensions": [
+    "codesandbox.preinstalledExtensions": [
     "visualstudioexptteam.intellicode-api-usage-examples",
     "GitHub.vscode-pull-request-github",
     "formulahendry.auto-close-tag",
@@ -53,6 +53,9 @@
     "vue.volar",
     "hollowtree.vue-snippets",
     "sdras.vue-vscode-snippets",
-    "redhat.vscode-yaml"
+    "redhat.vscode-yaml",
+    "seatonjiang.gitmoji-vscode",
+    "prisma.prisma",
+    "csstools.postcss"
   ]
 }
