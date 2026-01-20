@@ -3,7 +3,7 @@
   "window.title": "${rootName} - ${activeEditorShort}",
   "window.titleBarStyle": "custom",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Catppuccin Latte",
+  "workbench.colorTheme": "Catppuccin Frappé",
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.productIconTheme": "feather-vscode",
   "workbench.tree.expandMode": "singleClick",
@@ -55,6 +55,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
     "source.fixAll.eslint": "explicit",
+    // Stylelint 代码检查 (可选: 根据个人偏好)
     "source.fixAll.stylelint": "explicit",
     "source.organizeImports": "never"
   },
@@ -235,10 +236,6 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "security.workspace.trust.untrustedFiles": "open",
 
-  // ========== Extensions: AI Assistant ==========
-  // Tabnine AI - AI代码补全 (可选: 根据个人偏好)
-  "tabnine.experimentalAutoImports": true,
-
   // ========== Extensions: Core Development Tools ==========
   // Catppuccin Theme - 主题配置 (通用)
   "catppuccin.italicKeywords": false,
@@ -342,12 +339,11 @@
   ],
 
   // ========== Extensions: CSS/Style Development ==========
-  // // Stylelint - CSS代码检查 (按需: 有CSS/SCSS/Vue项目时使用)
+  // // Stylelint - CSS代码检查 (按需: 有CSS预处理器/Vue项目时使用)
   // "stylelint.enable": true,
   // "stylelint.packageManager": "pnpm",
-  // "stylelint.validate": ["css", "less", "postcss", "scss", "vue"],
-  // "stylelint.customSyntax": "postcss-html",
-  // "stylelint.snippet": ["css", "less", "postcss", "scss", "vue"],
+  // "stylelint.validate": ["css", "less", "scss", "postcss", "vue"],
+  // "stylelint.snippet": ["css", "less", "scss", "postcss", "vue"],
   // // 启用stylelint时建议禁用内置validate防止冲突
   // "css.validate": false,
   // "less.validate": false,
