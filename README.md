@@ -18,7 +18,7 @@ vscode-profile/
 
 ### 安装扩展
 
-1. 复制 `extensions/*.json` 到项目的 `.vscode/extensions.json`
+1. 按需复制 `extensions/*.json` 到项目的 `.vscode/extensions.json`
 2. 打开命令面板：`Ctrl+Shift+P` (macOS: `Cmd+Shift+P`)
 3. 输入：`Extensions: Show Recommended Extensions`
 4. 点击 **Install All**
