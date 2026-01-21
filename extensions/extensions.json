@@ -1,0 +1,80 @@
+/**
+ * VS Code 扩展推荐配置示例
+ *
+ * 本文件用于示例说明 VS Code extensions.json 的配置方式。
+ * 列出的扩展可按需安装，并用于创建或补充 VS Code Code Profile。
+ *
+ * 实际使用时，请根据项目类型从 extensions 目录中
+ * 复制并合并对应的扩展配置（如 base / vue / react）。
+ */
+{
+  "recommendations": [
+    /* base */
+    "aaron-bond.better-comments", // Better Comments
+    "catppuccin.catppuccin-vsc", // Catppuccin for VSCode
+    "ms-ceintl.vscode-language-pack-zh-hans", // Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
+    "streetsidesoftware.code-spell-checker", // Code Spell Checker
+    "naumovs.color-highlight", // Color Highlight
+    "parthr2031.colorful-comments", // Colorful Comments
+    "mikestead.dotenv", // DotENV
+    "editorconfig.editorconfig", // EditorConfig for VS Code
+    "usernamehw.errorlens", // Error Lens
+    "melishev.feather-vscode", // Feather Product Icons
+    "rimuruchan.vscode-fix-checksums-next", // Fix VSCode Checksums Next
+    "mhutchie.git-graph", // Git Graph
+    "donjayamanne.githistory", // Git History
+    "github.copilot", // GitHub Copilot
+    "github.copilot-chat", // GitHub Copilot Chat
+    "eamodio.gitlens", // GitLens — Git supercharged
+    "stxr.iconfont-preview", // iconfont-preview
+    "kisstkondoros.vscode-gutter-preview", // Image preview
+    "yzhang.markdown-all-in-one", // Markdown All in One
+    "ionutvmi.path-autocomplete", // Path Autocomplete
+    "christian-kohler.path-intellisense", // Path Intellisense
+    "jock.svg", // SVG
+    "simonsiefke.svg-preview", // Svg Preview
+    "emmanuelbeziat.vscode-great-icons", // VSCode Great Icons
+    "redhat.vscode-yaml", // YAML
+
+    /* vue3 */
+    "formulahendry.auto-close-tag", // Auto Close Tag
+    "steoates.autoimport", // Auto Import
+    "formulahendry.auto-rename-tag", // Auto Rename Tag
+    "pranaygp.vscode-css-peek", // CSS Peek
+    "vunguyentuan.vscode-css-variables", // CSS Variable Autocomplete
+    "oouo-diogo-perdigao.docthis", // Document This
+    "dbaeumer.vscode-eslint", // ESLint
+    "vincaslt.highlight-matching-tag", // Highlight Matching Tag
+    "ecmel.vscode-html-css", // HTML CSS Support
+    "hearhear.html-comment", // HTML-Comment
+    "xabikos.javascriptsnippets", // JavaScript (ES6) code snippets
+    "ms-vscode.vscode-typescript-next", // JavaScript and TypeScript Nightly
+    "ms-vscode.js-debug-nightly", // JavaScript Debugger (Nightly)
+    "christian-kohler.npm-intellisense", // npm Intellisense
+    "esbenp.prettier-vscode", // Prettier - Code formatter
+    "cipchk.cssrem", // px to rem & rpx & vw (cssrem)
+    "meganrogge.template-string-converter", // Template String Converter
+    "chakrounanas.turbo-console-log", // Turbo Console Log
+    "vue.volar", // Vue (Official)
+    "hollowtree.vue-snippets", // Vue 3 Snippets
+    "sdras.vue-vscode-snippets", // Vue VSCode Snippets
+
+    /* ========== 可选扩展 ========== */
+    // "ms-vscode.powershell", // PowerShell
+    "antfu.goto-alias", // Goto definition alias
+    "orta.vscode-jest", // Jest
+    "firsttris.vscode-jest-runner", // Jest Runner
+    "andys8.jest-snippets", // Jest Snippets
+    "nuxt.mdc", // MDC - Markdown Components
+    "nuxtr.nuxtr-vscode", // Nuxtr
+    "vunguyentuan.vscode-postcss", // PostCSS Intellisense and Highlighting
+    "csstools.postcss", // PostCSS Language Support
+    "syler.sass-indented", // Sass (.sass only)
+    "sibiraj-s.vscode-scss-formatter", // SCSS Formatter
+    "mrmlnc.vscode-scss", // SCSS IntelliSense
+    "stylelint.vscode-stylelint", // Stylelint
+    "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
+    "antfu.unocss", // UnoCSS
+    "vitest.explorer" // Vitest
+  ]
+}

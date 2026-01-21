@@ -2,16 +2,14 @@
 
 > 📝 我的个人 VSCode 开发环境配置集合
 
-这是一个完整的 VSCode 开发环境配置仓库
-
+这是一个完整的 VSCode 开发环境配置仓库，包含多种技术栈的扩展推荐配置。
 ```
 vscode-profile/
-├─ settings.json        # VSCode 设置
-├─ extensions.json      # 推荐插件
-├─ launch.json          # 调试配置
-├─ tasks.json           # 任务配置
-├─ snippets/
-│  └─ javascript.code-snippets   # ⭐ 项目级 snippet
+├─ _internal/                    # 扩展配置生成器
+├─ extensions/*.json             # VSCode 扩展推荐
+├─ settings.json                 # VSCode 设置
+├─ keybindings.json              # VSCode 快捷键配置
+└─ global.code-snippets          # VSCode 全局代码片段
 ```
 
 ## 🤝 贡献

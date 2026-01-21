@@ -1,0 +1,34 @@
+/**
+ * Node.js 后端开发环境 (24 个扩展, 5 个可选)
+ * 通用扩展配置定义在 ./base.json
+ */
+{
+  "recommendations": [
+    "steoates.autoimport", // Auto Import
+    "ms-vscode-remote.remote-containers", // Dev Containers
+    "ms-azuretools.vscode-docker", // Docker
+    "oouo-diogo-perdigao.docthis", // Document This
+    "dbaeumer.vscode-eslint", // ESLint
+    "expresssnippets.vscode-express-snippets", // Express Snippets
+    "xabikos.javascriptsnippets", // JavaScript (ES6) code snippets
+    "ms-vscode.vscode-typescript-next", // JavaScript and TypeScript Nightly
+    "ms-vscode.js-debug-nightly", // JavaScript Debugger (Nightly)
+    "obkoro1.korofileheader", // koroFileHeader
+    "ms-kubernetes-tools.vscode-kubernetes-tools", // Kubernetes
+    "chris-noring.node-snippets", // node-snippets
+    "christian-kohler.npm-intellisense", // npm Intellisense
+    "esbenp.prettier-vscode", // Prettier - Code formatter
+    "redhat.fabric8-analytics", // Red Hat Dependency Analytics
+    "humao.rest-client", // REST Client
+    "meganrogge.template-string-converter", // Template String Converter
+    "chakrounanas.turbo-console-log", // Turbo Console Log
+    "redhat.vscode-xml", // XML
+
+    /* ========== 可选扩展 ========== */
+    "orta.vscode-jest", // Jest
+    "firsttris.vscode-jest-runner", // Jest Runner
+    "andys8.jest-snippets", // Jest Snippets
+    "mongodb.mongodb-vscode", // MongoDB for VS Code
+    "vitest.explorer" // Vitest
+  ]
+}

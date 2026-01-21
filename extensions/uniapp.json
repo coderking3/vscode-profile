@@ -1,0 +1,46 @@
+/**
+ * uniApp 小程序开发 (36 个扩展, 12 个可选)
+ * 通用扩展配置定义在 ./base.json
+ */
+{
+  "recommendations": [
+    "formulahendry.auto-close-tag", // Auto Close Tag
+    "steoates.autoimport", // Auto Import
+    "formulahendry.auto-rename-tag", // Auto Rename Tag
+    "pranaygp.vscode-css-peek", // CSS Peek
+    "vunguyentuan.vscode-css-variables", // CSS Variable Autocomplete
+    "oouo-diogo-perdigao.docthis", // Document This
+    "dbaeumer.vscode-eslint", // ESLint
+    "vincaslt.highlight-matching-tag", // Highlight Matching Tag
+    "ecmel.vscode-html-css", // HTML CSS Support
+    "hearhear.html-comment", // HTML-Comment
+    "xabikos.javascriptsnippets", // JavaScript (ES6) code snippets
+    "ms-vscode.vscode-typescript-next", // JavaScript and TypeScript Nightly
+    "ms-vscode.js-debug-nightly", // JavaScript Debugger (Nightly)
+    "christian-kohler.npm-intellisense", // npm Intellisense
+    "esbenp.prettier-vscode", // Prettier - Code formatter
+    "cipchk.cssrem", // px to rem & rpx & vw (cssrem)
+    "meganrogge.template-string-converter", // Template String Converter
+    "chakrounanas.turbo-console-log", // Turbo Console Log
+    "mrmaoddxxaa.create-uniapp-view", // uni-create-view
+    "uni-helper.uni-helper-vscode", // uni-helper
+    "evils.uniapp-vscode", // uniapp小程序扩展
+    "vue.volar", // Vue (Official)
+    "hollowtree.vue-snippets", // Vue 3 Snippets
+    "sdras.vue-vscode-snippets", // Vue VSCode Snippets
+
+    /* ========== 可选扩展 ========== */
+    "orta.vscode-jest", // Jest
+    "firsttris.vscode-jest-runner", // Jest Runner
+    "andys8.jest-snippets", // Jest Snippets
+    "vunguyentuan.vscode-postcss", // PostCSS Intellisense and Highlighting
+    "csstools.postcss", // PostCSS Language Support
+    "syler.sass-indented", // Sass (.sass only)
+    "sibiraj-s.vscode-scss-formatter", // SCSS Formatter
+    "mrmlnc.vscode-scss", // SCSS IntelliSense
+    "stylelint.vscode-stylelint", // Stylelint
+    "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
+    "antfu.unocss", // UnoCSS
+    "vitest.explorer" // Vitest
+  ]
+}
