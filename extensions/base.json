@@ -1,0 +1,35 @@
+/**
+ * 基础开发环境 - 适用于任何项目 (26 个扩展, 1 个可选)
+ */
+{
+  "recommendations": [
+    "aaron-bond.better-comments", // Better Comments
+    "catppuccin.catppuccin-vsc", // Catppuccin for VSCode
+    "ms-ceintl.vscode-language-pack-zh-hans", // Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
+    "streetsidesoftware.code-spell-checker", // Code Spell Checker
+    "naumovs.color-highlight", // Color Highlight
+    "parthr2031.colorful-comments", // Colorful Comments
+    "mikestead.dotenv", // DotENV
+    "editorconfig.editorconfig", // EditorConfig for VS Code
+    "usernamehw.errorlens", // Error Lens
+    "melishev.feather-vscode", // Feather Product Icons
+    "rimuruchan.vscode-fix-checksums-next", // Fix VSCode Checksums Next
+    "mhutchie.git-graph", // Git Graph
+    "donjayamanne.githistory", // Git History
+    "github.copilot", // GitHub Copilot
+    "github.copilot-chat", // GitHub Copilot Chat
+    "eamodio.gitlens", // GitLens — Git supercharged
+    "stxr.iconfont-preview", // iconfont-preview
+    "kisstkondoros.vscode-gutter-preview", // Image preview
+    "yzhang.markdown-all-in-one", // Markdown All in One
+    "ionutvmi.path-autocomplete", // Path Autocomplete
+    "christian-kohler.path-intellisense", // Path Intellisense
+    "jock.svg", // SVG
+    "simonsiefke.svg-preview", // Svg Preview
+    "emmanuelbeziat.vscode-great-icons", // VSCode Great Icons
+    "redhat.vscode-yaml", // YAML
+
+    /* ========== 可选扩展 ========== */
+    "ms-vscode.powershell" // PowerShell
+  ]
+}

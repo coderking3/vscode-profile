@@ -1,0 +1,358 @@
+[
+  {
+    "id": "formulahendry.auto-close-tag",
+    "name": "Auto Close Tag"
+  },
+  {
+    "id": "steoates.autoimport",
+    "name": "Auto Import"
+  },
+  {
+    "id": "formulahendry.auto-rename-tag",
+    "name": "Auto Rename Tag"
+  },
+  {
+    "id": "aaron-bond.better-comments",
+    "name": "Better Comments"
+  },
+  {
+    "id": "alefragnani.bookmarks",
+    "name": "Bookmarks"
+  },
+  {
+    "id": "catppuccin.catppuccin-vsc",
+    "name": "Catppuccin for VSCode"
+  },
+  {
+    "id": "ms-ceintl.vscode-language-pack-zh-hans",
+    "name": "Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code"
+  },
+  {
+    "id": "streetsidesoftware.code-spell-checker",
+    "name": "Code Spell Checker"
+  },
+  {
+    "id": "naumovs.color-highlight",
+    "name": "Color Highlight"
+  },
+  {
+    "id": "parthr2031.colorful-comments",
+    "name": "Colorful Comments"
+  },
+  {
+    "id": "pranaygp.vscode-css-peek",
+    "name": "CSS Peek"
+  },
+  {
+    "id": "vunguyentuan.vscode-css-variables",
+    "name": "CSS Variable Autocomplete"
+  },
+  {
+    "id": "ms-vscode-remote.remote-containers",
+    "name": "Dev Containers"
+  },
+  {
+    "id": "ms-azuretools.vscode-docker",
+    "name": "Docker"
+  },
+  {
+    "id": "oouo-diogo-perdigao.docthis",
+    "name": "Document This"
+  },
+  {
+    "id": "mikestead.dotenv",
+    "name": "DotENV"
+  },
+  {
+    "id": "editorconfig.editorconfig",
+    "name": "EditorConfig for VS Code"
+  },
+  {
+    "id": "usernamehw.errorlens",
+    "name": "Error Lens"
+  },
+  {
+    "id": "dsznajder.es7-react-js-snippets",
+    "name": "ES7+ React/Redux/React-Native snippets"
+  },
+  {
+    "id": "dbaeumer.vscode-eslint",
+    "name": "ESLint"
+  },
+  {
+    "id": "expresssnippets.vscode-express-snippets",
+    "name": "Express Snippets"
+  },
+  {
+    "id": "melishev.feather-vscode",
+    "name": "Feather Product Icons"
+  },
+  {
+    "id": "rimuruchan.vscode-fix-checksums-next",
+    "name": "Fix VSCode Checksums Next"
+  },
+  {
+    "id": "mhutchie.git-graph",
+    "name": "Git Graph"
+  },
+  {
+    "id": "donjayamanne.githistory",
+    "name": "Git History"
+  },
+  {
+    "id": "github.copilot",
+    "name": "GitHub Copilot"
+  },
+  {
+    "id": "github.copilot-chat",
+    "name": "GitHub Copilot Chat"
+  },
+  {
+    "id": "eamodio.gitlens",
+    "name": "GitLens — Git supercharged"
+  },
+  {
+    "id": "vincaslt.highlight-matching-tag",
+    "name": "Highlight Matching Tag"
+  },
+  {
+    "id": "ecmel.vscode-html-css",
+    "name": "HTML CSS Support"
+  },
+  {
+    "id": "hearhear.html-comment",
+    "name": "HTML-Comment"
+  },
+  {
+    "id": "stxr.iconfont-preview",
+    "name": "iconfont-preview"
+  },
+  {
+    "id": "kisstkondoros.vscode-gutter-preview",
+    "name": "Image preview"
+  },
+  {
+    "id": "xabikos.javascriptsnippets",
+    "name": "JavaScript (ES6) code snippets"
+  },
+  {
+    "id": "ms-vscode.vscode-typescript-next",
+    "name": "JavaScript and TypeScript Nightly"
+  },
+  {
+    "id": "ms-vscode.js-debug-nightly",
+    "name": "JavaScript Debugger (Nightly)"
+  },
+  {
+    "id": "orta.vscode-jest",
+    "name": "Jest"
+  },
+  {
+    "id": "firsttris.vscode-jest-runner",
+    "name": "Jest Runner"
+  },
+  {
+    "id": "andys8.jest-snippets",
+    "name": "Jest Snippets"
+  },
+  {
+    "id": "skyran.js-jsx-snippets",
+    "name": "JS JSX Snippets"
+  },
+  {
+    "id": "obkoro1.korofileheader",
+    "name": "koroFileHeader"
+  },
+  {
+    "id": "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "name": "Kubernetes"
+  },
+  {
+    "id": "ritwickdey.liveserver",
+    "name": "Live Server"
+  },
+  {
+    "id": "yzhang.markdown-all-in-one",
+    "name": "Markdown All in One"
+  },
+  {
+    "id": "mongodb.mongodb-vscode",
+    "name": "MongoDB for VS Code"
+  },
+  {
+    "id": "pulkitgangwar.nextjs-snippets",
+    "name": "Nextjs snippets"
+  },
+  {
+    "id": "chris-noring.node-snippets",
+    "name": "node-snippets"
+  },
+  {
+    "id": "christian-kohler.npm-intellisense",
+    "name": "npm Intellisense"
+  },
+  {
+    "id": "techer.open-in-browser",
+    "name": "open in browser"
+  },
+  {
+    "id": "ionutvmi.path-autocomplete",
+    "name": "Path Autocomplete"
+  },
+  {
+    "id": "christian-kohler.path-intellisense",
+    "name": "Path Intellisense"
+  },
+  {
+    "id": "vunguyentuan.vscode-postcss",
+    "name": "PostCSS Intellisense and Highlighting"
+  },
+  {
+    "id": "csstools.postcss",
+    "name": "PostCSS Language Support"
+  },
+  {
+    "id": "ms-vscode.powershell",
+    "name": "PowerShell"
+  },
+  {
+    "id": "esbenp.prettier-vscode",
+    "name": "Prettier - Code formatter"
+  },
+  {
+    "id": "cipchk.cssrem",
+    "name": "px to rem & rpx & vw (cssrem)"
+  },
+  {
+    "id": "redhat.fabric8-analytics",
+    "name": "Red Hat Dependency Analytics"
+  },
+  {
+    "id": "humao.rest-client",
+    "name": "REST Client"
+  },
+  {
+    "id": "syler.sass-indented",
+    "name": "Sass (.sass only)"
+  },
+  {
+    "id": "sibiraj-s.vscode-scss-formatter",
+    "name": "SCSS Formatter"
+  },
+  {
+    "id": "mrmlnc.vscode-scss",
+    "name": "SCSS IntelliSense"
+  },
+  {
+    "id": "burkeholland.simple-react-snippets",
+    "name": "Simple React Snippets"
+  },
+  {
+    "id": "stylelint.vscode-stylelint",
+    "name": "Stylelint"
+  },
+  {
+    "id": "jock.svg",
+    "name": "SVG"
+  },
+  {
+    "id": "simonsiefke.svg-preview",
+    "name": "Svg Preview"
+  },
+  {
+    "id": "bradlc.vscode-tailwindcss",
+    "name": "Tailwind CSS IntelliSense"
+  },
+  {
+    "id": "meganrogge.template-string-converter",
+    "name": "Template String Converter"
+  },
+  {
+    "id": "chakrounanas.turbo-console-log",
+    "name": "Turbo Console Log"
+  },
+  {
+    "id": "infeng.vscode-react-typescript",
+    "name": "Typescript React code snippets"
+  },
+  {
+    "id": "mrmaoddxxaa.create-uniapp-view",
+    "name": "uni-create-view"
+  },
+  {
+    "id": "uni-helper.uni-helper-vscode",
+    "name": "uni-helper"
+  },
+  {
+    "id": "evils.uniapp-vscode",
+    "name": "uniapp小程序扩展"
+  },
+  {
+    "id": "antfu.unocss",
+    "name": "UnoCSS"
+  },
+  {
+    "id": "vitest.explorer",
+    "name": "Vitest"
+  },
+  {
+    "id": "emmanuelbeziat.vscode-great-icons",
+    "name": "VSCode Great Icons"
+  },
+  {
+    "id": "planbcoding.vscode-react-refactor",
+    "name": "VSCode React Refactor"
+  },
+  {
+    "id": "coderfee.vscode-weapp-api",
+    "name": "vscode weapp api"
+  },
+  {
+    "id": "coderfee.vscode-wxml",
+    "name": "vscode wxml"
+  },
+  {
+    "id": "vue.volar",
+    "name": "Vue (Official)"
+  },
+  {
+    "id": "hollowtree.vue-snippets",
+    "name": "Vue 3 Snippets"
+  },
+  {
+    "id": "sdras.vue-vscode-snippets",
+    "name": "Vue VSCode Snippets"
+  },
+  {
+    "id": "wakatime.vscode-wakatime",
+    "name": "WakaTime"
+  },
+  {
+    "id": "qiu8310.minapp-vscode",
+    "name": "WXML - Language Service"
+  },
+  {
+    "id": "redhat.vscode-xml",
+    "name": "XML"
+  },
+  {
+    "id": "redhat.vscode-yaml",
+    "name": "YAML"
+  },
+  {
+    "id": "overtrue.miniapp-helper",
+    "name": "小程序开发助手"
+  },
+  {
+    "id": "nuxt.mdc",
+    "name": "MDC - Markdown Components"
+  },
+  {
+    "id": "antfu.goto-alias",
+    "name": "Goto definition alias"
+  },
+  {
+    "id": "nuxtr.nuxtr-vscode",
+    "name": "Nuxtr"
+  }
+]
