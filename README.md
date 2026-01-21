@@ -1,30 +1,44 @@
 # VSCode Profile
 
-> 📝 我的个人 VSCode 开发环境配置集合
+> 我的 VSCode 开发环境配置
 
-这是一个完整的 VSCode 开发环境配置仓库，包含多种技术栈的扩展推荐配置。
+完整的 VSCode 配置集合，包含多技术栈的扩展推荐。
+
+## 📦 结构
 ```
 vscode-profile/
-├─ _internal/                    # 扩展配置生成器
-├─ extensions/*.json             # VSCode 扩展推荐
-├─ settings.json                 # VSCode 设置
-├─ keybindings.json              # VSCode 快捷键配置
-└─ global.code-snippets          # VSCode 全局代码片段
+├─ _internal/              # 配置生成器
+├─ extensions/*.json       # 扩展推荐
+├─ settings.json           # 编辑器设置
+├─ keybindings.json        # 快捷键
+└─ global.code-snippets    # 代码片段
 ```
+
+## 🚀 使用
+
+### 安装扩展
+
+1. 复制 `extensions/*.json` 到项目的 `.vscode/extensions.json`
+2. 打开命令面板：`Ctrl+Shift+P` (macOS: `Cmd+Shift+P`)
+3. 输入：`Extensions: Show Recommended Extensions`
+4. 点击 **Install All**
+
+### 其他配置
+
+按需复制到你的 VSCode 配置目录：
+
+- `settings.json` → 编辑器设置
+- `keybindings.json` → 快捷键配置  
+- `global.code-snippets` → 代码片段
 
 ## 🤝 贡献
 
-欢迎提交 Issue 和 Pull Request 来改进这个配置：
+欢迎提交 Issue 和 PR 来改进配置。
 
-- 新的代码片段
-- 扩展推荐
-- 设置优化建议
-- Bug 修复
-
-## 📄 许可证
+## 📄 许可
 
 [MIT](./LICENSE)
 
 ---
 
-**注意**: 这些配置基于个人开发习惯，建议根据自己的需求进行调整。首次使用时请备份现有的 VSCode 配置。
+> ⚠️ 该配置基于个人开发习惯，建议根据自己的需求进行调整。首次使用时请备份现有的 VSCode 配置。
