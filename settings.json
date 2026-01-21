@@ -256,9 +256,10 @@
   "prettier.singleQuote": true,
   "prettier.semi": false,
 
-  // Emmet - HTML/CSS快速编写 (通用)
+   // Emmet - HTML/CSS快速编写 (通用)
   "emmet.includeLanguages": {
-    "wxml": "html",
+    // Wxml Emmet (按需: 开发小程序时使用)
+    // "wxml": "html",
     "javascript": "javascriptreact"
   },
   "emmet.triggerExpansionOnTab": true,
@@ -401,4 +402,5 @@
   // "create-uniapp-view.directory": true,
   // "create-uniapp-view.name": "与文件夹同名"
 }
+
 
