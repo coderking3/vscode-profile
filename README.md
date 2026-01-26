@@ -1,6 +1,6 @@
 # VSCode Profile
 
-> 我的 VSCode 开发环境配置
+> king3 的 VS Code 配置预设
 
 完整的 VSCode 配置集合，包含多技术栈的扩展推荐。
 
