@@ -15,7 +15,7 @@
     "*.copilotmd": "vscode.markdown.preview.editor",
     "*.sh": "default",
     "*.eot": "default",
-    "*.svg": "default"
+    "*.svg": "default",
   },
 
   // ========== Editor Core Settings ==========
@@ -43,7 +43,7 @@
   "editor.suggestSelection": "first",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.quickSuggestions": {
-    "strings": true
+    "strings": true,
   },
   "editor.find.addExtraSpaceOnTop": false,
   "editor.hover.sticky": true,
@@ -57,7 +57,7 @@
     "source.fixAll.eslint": "explicit",
     // Stylelint 代码检查 (可选: 根据个人偏好)
     "source.fixAll.stylelint": "explicit",
-    "source.organizeImports": "never"
+    "source.organizeImports": "never",
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 
@@ -182,7 +182,7 @@
     "*.vue": "$(capture).*.ts, $(capture).*.js, $(capture).story.vue",
     "*.w": "$(capture).*.w, I$(capture).w",
     "*.wat": "$(capture).wasm",
-    "*.xaml": "$(capture).xaml.cs"
+    "*.xaml": "$(capture).xaml.cs",
   },
 
   // ========== Terminal ==========
@@ -194,6 +194,9 @@
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.tabs.enabled": true,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "terminal.integrated.suggest.enabled": false,
+  "terminal.integrated.stickyScroll.enabled": false,
   // PowerShell - 终端工具 (可选: 根据个人偏好)
   "powershell.promptToUpdatePowerShell": false,
 
@@ -225,7 +228,7 @@
     "**/temp": true,
     "**/yarn.lock": true,
     "**/CHANGELOG*": true,
-    "**/LICENSE*": true
+    "**/LICENSE*": true,
   },
 
   // ========== Language Support ==========
@@ -256,11 +259,11 @@
   "prettier.singleQuote": true,
   "prettier.semi": false,
 
-   // Emmet - HTML/CSS快速编写 (通用)
+  // Emmet - HTML/CSS快速编写 (通用)
   "emmet.includeLanguages": {
     // Wxml Emmet (按需: 开发小程序时使用)
     // "wxml": "html",
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
   },
   "emmet.triggerExpansionOnTab": true,
   "emmet.showSuggestionsAsSnippets": true,
@@ -276,7 +279,7 @@
       "underline": false,
       "backgroundColor": "transparent",
       "bold": false,
-      "italic": false
+      "italic": false,
     },
     {
       "tag": "?",
@@ -285,7 +288,7 @@
       "underline": false,
       "backgroundColor": "transparent",
       "bold": false,
-      "italic": false
+      "italic": false,
     },
     {
       "tag": "//",
@@ -294,7 +297,7 @@
       "underline": false,
       "backgroundColor": "transparent",
       "bold": false,
-      "italic": false
+      "italic": false,
     },
     {
       "tag": "^",
@@ -303,7 +306,7 @@
       "underline": false,
       "backgroundColor": "transparent",
       "bold": false,
-      "italic": false
+      "italic": false,
     },
     {
       "tag": "*",
@@ -312,7 +315,7 @@
       "underline": false,
       "backgroundColor": "transparent",
       "bold": true,
-      "italic": false
+      "italic": false,
     },
     {
       "tag": "&",
@@ -321,7 +324,7 @@
       "underline": false,
       "backgroundColor": "transparent",
       "bold": false,
-      "italic": false
+      "italic": false,
     },
     {
       "tag": "~",
@@ -330,7 +333,7 @@
       "underline": false,
       "backgroundColor": "transparent",
       "bold": false,
-      "italic": false
+      "italic": false,
     },
     {
       "tag": "todo",
@@ -339,8 +342,8 @@
       "underline": false,
       "backgroundColor": "transparent",
       "bold": false,
-      "italic": false
-    }
+      "italic": false,
+    },
   ],
 
   // ========== Extensions: CSS/Style Development ==========
@@ -370,8 +373,8 @@
     "typescriptreact",
     "javascriptreact",
     "vue",
-    "svelte"
-  ]
+    "svelte",
+  ],
 
   // ========== Extensions: Productivity Tools ==========
   // Bookmarks - 代码书签 (可选: 大型项目导航时有用)
@@ -402,5 +405,3 @@
   // "create-uniapp-view.directory": true,
   // "create-uniapp-view.name": "与文件夹同名"
 }
-
-
