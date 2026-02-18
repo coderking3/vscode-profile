@@ -67,7 +67,7 @@
 
   /* CSS Snippets */
   "Flexbox Container": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "flex",
     "body": [
       "display: flex;",
@@ -77,7 +77,7 @@
     "description": "Flexbox 容器",
   },
   "Flexbox Column": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "flexcol",
     "body": [
       "display: flex;",
@@ -88,7 +88,7 @@
     "description": "Flexbox 列布局",
   },
   "Grid Container": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "grid",
     "body": [
       "display: grid;",
@@ -98,7 +98,7 @@
     "description": "Grid 容器",
   },
   "Grid Area": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "gridarea",
     "body": [
       "display: grid;",
@@ -110,7 +110,7 @@
     "description": "Grid 区域布局",
   },
   "Center Absolute": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "center",
     "body": [
       "position: absolute;",
@@ -121,7 +121,7 @@
     "description": "绝对定位居中",
   },
   "Center Flex": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "centerf",
     "body": [
       "display: flex;",
@@ -131,13 +131,13 @@
     "description": "Flex 居中",
   },
   "Center Grid": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "centerg",
     "body": ["display: grid;", "place-items: center;"],
     "description": "Grid 居中",
   },
   "Truncate Text": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "truncate",
     "body": [
       "white-space: nowrap;",
@@ -147,7 +147,7 @@
     "description": "文本截断",
   },
   "Multi-line Truncate": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "truncatem",
     "body": [
       "display: -webkit-box;",
@@ -158,13 +158,13 @@
     "description": "多行文本截断",
   },
   "Reset List": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "resetlist",
     "body": ["list-style: none;", "padding: 0;", "margin: 0;"],
     "description": "重置列表样式",
   },
   "Reset Button": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "resetbtn",
     "body": [
       "border: none;",
@@ -175,19 +175,19 @@
     "description": "重置按钮样式",
   },
   "CSS Variable": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "var",
     "body": ["var(--${1:variable-name})"],
     "description": "CSS 变量使用",
   },
   "CSS Variable Define": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "vard",
     "body": ["--${1:variable-name}: ${2:value};"],
     "description": "CSS 变量定义",
   },
   "Root Variables": {
-    "scope": "css",
+    "scope": "css,less,scss,sass,style",
     "prefix": "root",
     "body": [":root {", "  --${1:primary-color}: ${2:#000};", "  $0", "}"],
     "description": "根级 CSS 变量",
